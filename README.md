@@ -15,16 +15,16 @@ This repository is intended to practice core React concepts such as:
 ## 📁 Project Structure
 
 Each folder contains a self-contained React app:
-├── react-mini-project-1/
-├── react-mini-project-2/
-├── react-mini-project-4/
-├── react-mini-project-5/
-├── react-mini-project-6/
-├── react-mini-project-7/
-├── react-mini-project-8/
-├── react-mini-project-9/
-├── react-mini-project-10/
-└── count/(react-mini-project-3)
+react-mini-project-1/
+react-mini-project-2/
+react-mini-project-4/
+react-mini-project-5/
+react-mini-project-6/
+react-mini-project-7/
+react-mini-project-8/
+react-mini-project-9/
+react-mini-project-10/
+count/(react-mini-project-3)
 
 > Note: Each folder was initialized using `create-react-app` or similar setup, and then edited individually.
 
