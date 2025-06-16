@@ -1,24 +1,31 @@
-# react-mini-projects
-Includes projects demonstrating useState, props, routing, forms, and more.
-## Contents
+#  React Mini Projects
 
-- `experiment-01`: useState Hook with dynamic input
-- `experiment-02`: Passing data with props
-- `experiment-03`: Counter App with increment/decrement
-- `experiment-04`: To-do List with completion & delete
-- `experiment-05`: Image gallery using composition & props
-- `experiment-06`: Form with validation and sanitization
-- `experiment-07`: Profile card using inline & external styling
-- `experiment-08`: Reminder app with filters
-- `experiment-09`: Routing with react-router-dom
-- `experiment-10`: API fetch using class component and lifecycle methods
+A collection of 10 beginner-to-intermediate level React mini projects developed as part of a learning lab. Each project is organized into its own folder, with a separate React app and component structure.
 
-## Setup
+This repository is intended to practice core React concepts such as:
+- useState and useEffect hooks
+- Forms and input handling
+- Dynamic rendering
+- Props and component reusability
+- React Router
+- Styling with CSS
 
-Each project is created using `create-react-app`.
-To run any of them:
+---
+
+## 📁 Project Structure
+
+Each folder contains a self-contained React app:
+
+
+> Note: Each folder was initialized using `create-react-app` or similar setup, and then edited individually.
+
+---
+
+## 🛠️ How to Run a Project
+
+1. Navigate to the folder of the project you want to run:
 
 ```bash
-cd experiment-01
+cd react-mini-projects/react-mini-project-1
 npm install
 npm start
