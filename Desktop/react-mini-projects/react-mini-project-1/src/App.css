@@ -1,0 +1,38 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e3f2fd, #ffffff);
+  min-height: 100vh;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #0d47a1;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 60%;
+  max-width: 400px;
+  padding: 12px 16px;
+  border: 2px solid #90caf9;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+input:focus {
+  border-color: #42a5f5;
+  box-shadow: 0 0 8px rgba(66, 165, 245, 0.6);
+}
+
+p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #333;
+}

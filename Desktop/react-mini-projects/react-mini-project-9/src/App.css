@@ -1,0 +1,62 @@
+nav {
+  background-color: #111;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  flex-wrap: wrap; /* Optional for responsiveness */
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  white-space: nowrap;
+}
+
+nav .nav-links {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap; /* Helps prevent breaking on smaller widths */
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.2s ease;
+  margin: 10px 0;
+  display: inline-block;
+}
+
+nav a:hover {
+  color: #1e90ff;
+  transform: scale(1.05);
+}
+
+nav a:active {
+  color: #ffd700;
+}
+
+/* Remove flex-direction: column from media query to keep horizontal layout */
+@media (max-width: 768px) {
+  nav {
+    padding: 15px 20px;
+  }
+
+  nav .nav-links {
+    gap: 20px;
+    justify-content: flex-end;
+  }
+
+  nav a {
+    margin: 5px 0;
+  }
+}

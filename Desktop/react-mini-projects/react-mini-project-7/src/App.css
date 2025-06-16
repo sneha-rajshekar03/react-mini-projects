@@ -1,0 +1,80 @@
+/* Centering the card on the page */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card container */
+.card {
+  width: 350px;
+  height: 350px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.4s ease;
+}
+
+/* Content inside the card */
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+/* Circular chameleon image */
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  margin-top:10px;
+  border:2px solid black;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+/* Name styling */
+.name {
+  font-size: 20px;
+  color: #333;
+  margin: 0;
+}
+
+/* Title/Job info styling */
+.title {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+/* Button styling */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
